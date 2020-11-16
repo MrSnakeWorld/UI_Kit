@@ -3,12 +3,50 @@ body{
     position: relative;
     width: 1440px;
     height: 900px;
-    font-size: 14px;
-    line-height: 24px;    
+}
+.sub-group{
+    float: left;
+}
+.sub-h1, .sub-h2, .sub-h3, .sub-body{
+    margin: 30px 30px 40px 30px;
+    font-family: "Montserrat-Regular";
+    color: rgba(31, 32, 65, 0.25);
+}
+h1{
+    font-family: "Quicksand-Medium";
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: Bold;
+    margin: 30px;
+}
+h2{
+    font-family: "Quicksand-Light";
+    font-weight: 400px;
+    font-size: 19px;
+    line-height: 24px;
+    margin: 30px;
+}
+h2 b{
+    font-family: "Quicksand-Medium";
+    font-weight: 700;
+}
+h3{
+    text-transform: uppercase;
+    font-family: "Montserrat-SemiBold";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 30px;
 }
 p{
-    font-family: "Quicksand-Light";
+    font-family: "Montserrat-Regular";
+    font-size: 14px;
+    line-height: 24px; 
+    color: rgba(31, 32, 65, 0.75);   
+    margin: 30px;
 }
+
+
 .rectangle-group{
     float: left;
 }
@@ -71,6 +109,4 @@ p{
     float: right;
     width: 50%;
 }
-.sub-group{
-    float: left;
-}
+
