@@ -1,0 +1,112 @@
+body{
+    background-color: #ffffff;
+    position: relative;
+    width: 1440px;
+    height: 900px;
+}
+.sub-group{
+    float: left;
+}
+.sub-h1, .sub-h2, .sub-h3, .sub-body{
+    margin: 30px 30px 40px 30px;
+    font-family: "Montserrat-Regular";
+    color: rgba(31, 32, 65, 0.25);
+}
+h1{
+    font-family: "Quicksand-Medium";
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: Bold;
+    margin: 30px;
+}
+h2{
+    font-family: "Quicksand-Light";
+    font-weight: 400px;
+    font-size: 19px;
+    line-height: 24px;
+    margin: 30px;
+}
+h2 b{
+    font-family: "Quicksand-Medium";
+    font-weight: 700;
+}
+h3{
+    text-transform: uppercase;
+    font-family: "Montserrat-SemiBold";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 30px;
+}
+p{
+    font-family: "Montserrat-Regular";
+    font-size: 14px;
+    line-height: 24px; 
+    color: rgba(31, 32, 65, 0.75);   
+    margin: 30px;
+}
+
+
+.rectangle-group{
+    float: left;
+}
+
+.rectangle_dark100{
+    background: #1F2041;  
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    margin: 20px;
+}
+.rectangle_dark75{
+    background: rgba(31, 32, 65, 0.75);
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    margin: 20px;
+}
+.rectangle_dark50{
+    background: rgba(31, 32, 65, 0.5);
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    margin: 20px;
+}
+.rectangle_dark25{
+    background: rgba(31, 32, 65, 0.25);
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    margin: 20px;
+}
+.rectangle_dark5{
+    background: rgba(31, 32, 65, 0.05);
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    margin: 20px;
+}
+.rectangle_purple{
+    background: #bc9cff;
+    width: 70px;
+    height: 70px;
+    border-radius: 6px; 
+    margin: 20px;
+}
+.rectangle_green{
+    background: #6fcf97;
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    margin: 20px;
+}
+
+.left-block{
+    float: left;
+    width: 50%;
+}
+.right-block{
+    float: right;
+    width: 50%;
+}
+
